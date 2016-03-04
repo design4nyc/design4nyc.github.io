@@ -14,7 +14,7 @@
 p .lead {
   color: #fff;
 }
-.panel-heading {
+div .panel-heading {
     color: #fff;
     background-color: #23237a;
     border-color: #23237a;
