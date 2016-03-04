@@ -1,1 +1,31 @@
-
+.jumbotron h1 {
+    color: #fff;
+    background-color: #118df0;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #ff304f;
+    border-color: #ff304f;
+    box-shadow: 0px 0px 2px #333;
+}
+p .lead {
+  color: #fff;
+}
+.panel-heading {
+    color: #fff;
+    background-color: #23237a;
+    border-color: #23237a;
+}
+.btn-success {
+    color: #fff;
+    background-color: #ff304f;
+    border-color: #ff304f;
+}
+.panel-primary {
+    border-color: #25237a;
+    box-shadow: 0px 0px 2px #333;
+}
+a {
+    color: #118df0;
+    text-decoration: none;
+}
