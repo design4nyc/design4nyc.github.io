@@ -16,7 +16,7 @@
 p .lead {
   color: #fff;
 }
-div .panel-heading {
+.panel-primary> .panel-heading {
     color: #fff;
     background-color: #118df0;
     border-color: #118df0;
@@ -25,10 +25,10 @@ div .panel-heading {
     color: #fff;
     background-color: #ff304f;
     border-color: #ff304f;
+    box-shadow: 0px 0px 2px #333;
 }
 .panel-primary {
     border-color: #118df0;
-    box-shadow: 0px 0px 2px #333;
 }
 a {
     color: #118df0;
