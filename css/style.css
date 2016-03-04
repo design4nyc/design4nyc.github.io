@@ -3,7 +3,9 @@
 }
 .jumbotron h1 {
     color: #fff;
-    background-color: #118df0;
+}
+.jumbotron p {
+    color: #fff;
 }
 .btn-primary {
     color: #fff;
