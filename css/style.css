@@ -1,3 +1,6 @@
+.jumbotron {
+    background-color: #118df0;
+}
 .jumbotron h1 {
     color: #fff;
     background-color: #118df0;
@@ -22,7 +25,7 @@ p .lead {
     border-color: #ff304f;
 }
 .panel-primary {
-    border-color: #25237a;
+    border-color: #118df0;
     box-shadow: 0px 0px 2px #333;
 }
 a {
