@@ -21,9 +21,15 @@
     <link href="css/jumbotron-narrow.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
+  <!--JS-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src ="js/bootstrap.min.js"></script>
+
+
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <!--<script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -35,25 +41,60 @@
 
 
   <body>
+
+
 <div>
   <div class="container">
-      <div class="header clearfix">
+
+
+     <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+  
+            <a class="navbar-brand" href="http://getbootstrap.com/examples/navbar/#"></a>
+            <a href="#" class="pull-left"><img src="img/NYC_logo.png" height="35px"style="PADDING-TOP: 15px"></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html"><b>Mayor's Office of Operations</a></b></li>
+              <li><a href="index.html">About</a></li>
+              <li><a href="mailto:ekadernauth@hhs.nyc.gov">Contact</a></li>
+              <li class="dropdown">
+                <a href="http://getbootstrap.com/examples/navbar/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Open Positions <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-header">Data</li>
+                  <li><a href="http://getbootstrap.com/examples/navbar/#">Position 1</a></li>
+                  <li><a href="http://getbootstrap.com/examples/navbar/#">Position 2</a></li>
+                  <li class="dropdown-header">Design</li>
+                  <li><a href="http://getbootstrap.com/examples/navbar/#">Front End Developer</a></li>
+                  <li class="dropdown-header">Digital</li>
+                  <li><a href="http://getbootstrap.com/examples/navbar/#">Position 1</a></li>
+                  <li><a href="http://getbootstrap.com/examples/navbar/#">Position 2</a></li>
+                  <li><a href="http://getbootstrap.com/examples/navbar/#">Position 3</a></li>
+                </ul>
+              </li>
+            </ul>
+      <!--<div class="header clearfix">
   
         <h3 class="text-muted"> <img src="img/NYC_logo.png" height="25" style="PADDING-BOTTOM: 4px">&nbsp;&nbsp;&nbsp;<b>Mayor's Office of Operations</b></h3>
 
-
+-->
       </div>
 
       <div class="well">
         <h1><b><font color="#25237a">Role Name</font></b></h1>
         <p class="lead">role overview text</p>
-
-
-<br>
-  <div class="container"> <p align="right">
-  <a href="/index.html"><button type="button" class="btn btn-primary btn-lg"><b>Learn More About Our Work</b></button></a></p>
-</div>
+        <br>
+        <p align="right"><a href="/index.html"><button type="button" class="btn btn-primary btn-lg"><b>Learn More About Our Work</b></button></a></p>
       </div>
+      
    
 
       <div class="row marketing">
@@ -64,7 +105,7 @@
       
             <br>
       <!--<p><div clas="text-center"><img class="img-responsive"src="img/access.png" alt="ACCESS NYC Home Page" style="border: 1px solid black"></div></img></p>-->
-        
+     <div class ="container>"   
 <div class="row">
   <div class="col-md-4">
     

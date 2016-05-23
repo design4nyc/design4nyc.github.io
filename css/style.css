@@ -43,3 +43,20 @@ a {
     color: #118df0;
     text-decoration: none;
 }
+
+/* navbar */
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+    .navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #25237a;
+}
+
+
+.list-group-item-info {
+  color: #ffffff;
+  background-color: #ff304f;
+
+

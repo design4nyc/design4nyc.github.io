@@ -21,9 +21,14 @@
     <link href="css/jumbotron-narrow.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
+    <!--JS-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src ="js/bootstrap.min.js"></script>
+
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <!--<script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -36,18 +41,45 @@
 
   <body>
 
-    <div class="container">
-      <div class="header clearfix">
-        <!--<nav>
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="#">Home</a></li>
-            <li role="presentation"><a href="#">About</a></li>
-            <li role="presentation"><a href="#">Contact</a></li>
-          </ul>
-        </nav>-->
-        <h3 class="text-muted"> <img src="img/NYC_logo.png" height="25" style="PADDING-BOTTOM: 4px">&nbsp;&nbsp;&nbsp;<b>Mayor's Office of Operations</b></h3>
-      </div>
 
+    <div class="container">
+<br>
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+  
+            <a class="navbar-brand" href="http://getbootstrap.com/examples/navbar/#"></a>
+            <a href="#" class="pull-left"><img src="img/NYC_logo.png" height="35px"style="PADDING-TOP: 15px"></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html"><b>Mayor's Office of Operations</a></b></li>
+              <li><a href="index.html">About</a></li>
+              <li><a href="mailto:ekadernauth@hhs.nyc.gov">Contact</a></li>
+              <li class="dropdown">
+                <a href="http://getbootstrap.com/examples/navbar/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Open Positions <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-header">Data</li>
+                  <li><a href="http://getbootstrap.com/examples/navbar/#">Position 1</a></li>
+                  <li><a href="http://getbootstrap.com/examples/navbar/#">Position 2</a></li>
+                  <li class="dropdown-header">Design</li>
+                  <li><a href="http://getbootstrap.com/examples/navbar/#">Front End Developer</a></li>
+                  <li class="dropdown-header">Digital</li>
+                  <li><a href="http://getbootstrap.com/examples/navbar/#">Position 1</a></li>
+                  <li><a href="http://getbootstrap.com/examples/navbar/#">Position 2</a></li>
+                  <li><a href="http://getbootstrap.com/examples/navbar/#">Position 3</a></li>
+                </ul>
+              </li>
+            </ul>
+            
+          </div>
       <div class="jumbotron">
         <h1><b>Put your <font color="#25237a"><u>data, design, and digital skills</font></u> into service. Improve the lives of millions of New Yorkers.</b></h1>
         <p class="lead">The Mayor's Office of Operations works to make City government more effective, efficient, coordinated and equitable in carrying out its day-to-day business. It monitors the performance of all City agencies and serves as a research and project management hub for the Mayor’s Office.  
@@ -57,7 +89,7 @@
 <br>
 
   <div class="container"> <p align="right">
-    <a href="mailto:ekadernauth@hhs.nyc.gov"><button type="button" class="btn btn-primary btn-lg"><b>Learn More About Our Work</b></button></a>
+    
   </p>
 </div>
       </div>
