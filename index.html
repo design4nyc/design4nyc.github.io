@@ -10,9 +10,9 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="img/favicon.ico">
 
-    <title>Mayor's Office of Operations: Innovation and Design Team</title>
+    <title>Mayor's Office of Operations</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -21,9 +21,14 @@
     <link href="css/jumbotron-narrow.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
+    <!--JS-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src ="js/bootstrap.min.js"></script>
+
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <!--<script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -36,26 +41,56 @@
 
   <body>
 
+
     <div class="container">
-      <div class="header clearfix">
-        <!--<nav>
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="#">Home</a></li>
-            <li role="presentation"><a href="#">About</a></li>
-            <li role="presentation"><a href="#">Contact</a></li>
-          </ul>
-        </nav>-->
-        <h3 class="text-muted"> <img src="img/NYC_logo.png" height="25" style="PADDING-BOTTOM: 4px">&nbsp;&nbsp;&nbsp;<b>Mayor's Office of Operations: Innovation and Design Team</b></h3>
-      </div>
-
-      <div class="jumbotron">
-        <h1><b>Put your <font color="#25237a"><u>product management</font></u> skills into service. Improve the lives of millions of New Yorkers.</b></h1>
-        <p class="lead">We are the go to resource for harnessing digital tools and capabilities to improve the lives of low-income and vulnerable New Yorkers. As part of the New York City Mayor’s Office of Operations, the Accelerator + Connect unit uses policy, management and technical expertise to help produce better outcomes for residents.</p>
-
-<p>As part of this unit, the Innovation and Design Team works with policy teams, City agencies, community-based organizations, and end users to analyze needs and opportunities and turn them into actionable digital services than can be designed, prototyped, tested, and developed.</p>
 <br>
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+  
+            <a class="navbar-brand" href="http://getbootstrap.com/examples/navbar/#"></a>
+            <a href="#" class="pull-left"><img src="img/NYC_logo.png" height="35px"style="PADDING-TOP: 15px"></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html"><b>Mayor's Office of Operations</a></b></li>
+              <li><a href="index.html">About</a></li>
+              <li><a href="mailto:ekadernauth@hhs.nyc.gov">Contact</a></li>
+              <li class="dropdown">
+                <a href="http://getbootstrap.com/examples/navbar/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Open Positions <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-header">Data</li>
+                  <li><a href="http://getbootstrap.com/examples/navbar/#">Position 1</a></li>
+                  <li><a href="http://getbootstrap.com/examples/navbar/#">Position 2</a></li>
+                  <li class="dropdown-header">Design</li>
+                  <li><a href="http://getbootstrap.com/examples/navbar/#">Front End Developer</a></li>
+                  <li class="dropdown-header">Digital</li>
+                  <li><a href="http://getbootstrap.com/examples/navbar/#">Position 1</a></li>
+                  <li><a href="http://getbootstrap.com/examples/navbar/#">Position 2</a></li>
+                  <li><a href="http://getbootstrap.com/examples/navbar/#">Position 3</a></li>
+                </ul>
+              </li>
+            </ul>
+            
+          </div>
+      <div class="jumbotron">
+        <h1><b>Put your <font color="#25237a"><u>data, design, and digital skills</font></u> into service. Improve the lives of millions of New Yorkers.</b></h1>
+        <p class="lead">The Mayor's Office of Operations works to make City government more effective, efficient, coordinated and equitable in carrying out its day-to-day business. It monitors the performance of all City agencies and serves as a research and project management hub for the Mayor’s Office.  
+
+<p>We are seeking candidates for design, data and technology roles to develop and support digital products that reduce poverty and advance opportunity for City residents.</p>
+
+<br>
+
   <div class="container"> <p align="right">
-  <a href="mailto:ekadernauth@hhs.nyc.gov"><button type="button" class="btn btn-primary btn-lg"><b>Join Us</b></button></a></p>
+    
+  </p>
 </div>
       </div>
 
@@ -63,10 +98,25 @@
         <div class="col-lg-6">
           <div class="panel panel-primary">
             <div class="panel-heading"><h3><span class="glyphicon glyphicon-modal-window" aria-hidden-"true"></span>&nbsp;&nbsp;<b>Our Work</b></h3></div>
-          <div class="panel-body"><p><h4>The unit currently operates HHS Accelerator, Worker Connect, and ACCESS NYC, and is actively working on new initiatives. Together, these initiatives break information silos through the use of modernized technology and coordinated agency practices to more efficiently and effectively provide health and human services to New Yorkers. The existing products provide a great opportunity for continuous iteration and interacting with a broad user base as we become more data-driven and user-centered. The Innovation and Design Team is central to the work on all products and new initiatives by leading design and user experience, producing design materials, conducting user research, working closely with the internal and vendor technology teams for development, and setting ongoing strategy for products.</p>
+          <div class="panel-body"><p><h4>The initiatives that you will work on all share the common goal of delivering more effective services and helping residents address poverty-related challenges. We operate a portfolio of digital tools and offer our expertise across multiple areas, including facilitating data integration to improve social service performance, easing access to services and programs, and designing new digital and in-person services with agency partners.
+</p>
+<br>
+<p><b>Data Integration</b> </p>
+Add line about data integration
+Digital Tool: Worker Connect, a data sharing technology that allows caseworkers to see real-time information about clients drawn from multiple City sources. Users only access information that they have been authorized to view based on their role and all applicable laws and regulations.
+<br>
+<br>
+<p><b>Service Design</b></p> 
+Our Service Design work develops solutions rooted in insights about the holistic experiences of those affected by public services. It considers people, processes, communications, and technology as part of the solution. By applying Service Design methodologies, our team better meets the needs of residents and service providers with approaches that produce better results.
+<br>
+<br>
+<p><b>Access  to Services</b></p> 
+Our Access to Services work includes digital tools and policy expertise across programs. We seek to make information and enrollment in services available to New Yorkers easy to find and use on any device. Our key digital tool for access to services is  ACCESS NYC, a website that allows New Yorkers to screen for eligibility for over 30 City, State, and Federal benefit programs. Depending on the benefit, residents can apply online, print out pre-populated application forms, and determine agency locations where they can go to directly apply for services. We are currently working on a new mobile-first design and a data platform to power benefits access. 
+      
+            <br>
       <!--<p><div clas="text-center"><img class="img-responsive"src="img/access.png" alt="ACCESS NYC Home Page" style="border: 1px solid black"></div></img></p>-->
         
-<div class="row">
+<!--<p><div class="row">
   <div class="col-md-4">
     <a href="http://www.nyc.gov/accessnyc" class="thumbnail">
       <img class="img-responsive" src="img/access.png" alt="anyc">
@@ -76,18 +126,11 @@
       <img class="img-responsive"src="img/accelerator.png" alt="accelerator">
     </a></div>
     <div class="col-md-4">
-     <a href="http://www.nyc.gov/html/hhsconnect/html/worker-connect/worker-connect.shtml" class="thumbnail">
+     <a href="http://www1.nyc.gov/site/hhsconnect/connect/worker-connect.page" class="thumbnail">
       <img class="img-responsive"src="img/workerconnect.png" alt="workerconnect">
     </a>
   </div>
-</div>
-
-
-            
-<p><li><b>New Initiatives</b> We are working on new initiatives that build upon existing products and our expertise areas, including reducing the burden on non-profits, facilitating data integration to improve social service performance, and easing access to services and programs.</li></p>
-<p><li><b><a href="http://www.nyc.gov/accessnyc">ACCESS NYC</a></b>, a website that allows New Yorkers to screen for eligibility for over 30 City, State, and Federal benefit programs. Depending on the benefit, residents can apply online, print out pre-populated application forms, and determine agency locations where they can go to directly apply for services.</p></li>
-<p><li><b><a href="http://www.nyc.gov/hhsaccelerator">HHS Accelerator</a></b> is a transformational initiative to reengineer, simplify and speed the procurement process for City agencies and client and community based service organizations by implementing a series of policy reforms, restructuring of rules and regulations, centralizing portions of procurement oversights and building a web-based system to support these reforms to dramatically shift the City’s procurement of health and human services. </li>
-<p><li><b><a href="http://www.nyc.gov/html/hhsconnect/html/worker-connect/worker-connect.shtml">Worker Connect</a></b>, a data sharing technology that allows case workers to see real-time information about clients drawn from multiple City sources. Users only access information that they have been authorized to view based on their role and all applicable laws and regulations.</li>
+</div>-->
  
 
 <p>
@@ -96,30 +139,34 @@
 <div class="col-lg-6">
 <div class="panel panel-primary">
             <div class="panel-heading">
-          <h3><span class="glyphicon glyphicon-user" aria-hidden-"true"></span>&nbsp;&nbsp;<b>Join the Team</b></h3></div>
-          <h4><div class="panel-body"><p>Our dedicated team is growing through adding new skillsets to enhance and expand the current products and create new digital services. Joining this team is an opportunity to use your expertise in digital services and public policy to create meaningful impact and help improve the lives of millions of New Yorkers. We are seeking new team members with product management and public policy backgrounds who are responsible for the delivery, on-going success, and continuous improvement of digital services.</p></div>
-          <div class="panel-footer"><p><b>Skills We’re Seeking</b>
-                    
+          <h3><span class="glyphicon glyphicon-user" aria-hidden-"true"></span>&nbsp;&nbsp;<b>Our Teams</b></h3></div>
+          <div class="panel-body">
+          
+<p>
+           <b><h4>Data</b></h4>
+            <p><h4>The Data Team helps access, integrate and analyze data to help develop more effective services and inform policy decisions and programmatic designs.  The team views data as a protected asset that can be responsibly leveraged across digital products to support analytical initiatives, facilitate knowledge sharing, and develop business strategy.
+</h4></p>
+            
+            <li class="list-group-item list-group-item-info">Current Openings:</li>
+<a href="#" class="list-group-item">Data Modeler</a>
+<br>
 
-<div class="row">
-  <div class="col-sm-4"><h2><center><span class="glyphicon glyphicon-globe" aria-hidden-"true"></span></h2></center><h4>Commitment to the mission of advancing greater equality and opportunity.</h4></div>
-  <div class="col-sm-4"><h2><center><span class="glyphicon glyphicon-list-alt" aria-hidden-"true"></span></h2></center><h4>Driving and maintaining product roadmaps and strategy.</h4></div>
-  <div class="col-sm-4"><h2><center><span class="glyphicon glyphicon-heart" aria-hidden-"true"></span></h2></center><h4>Collaborating with design, technology, and business team members, including holding agency stakeholder relationships.</h4></div>
-</div>
-
-<div class="row">
-  <div class="col-sm-4"><h2><center><span class="glyphicon glyphicon-equalizer" aria-hidden-"true"></span></h2></center><h4>Utilizing user research, analytics, and other metrics to make product decisions and set priorities.</h4></div>
-  <div class="col-sm-4"><h2><center><span class="glyphicon glyphicon-heart" aria-hidden-"true"></span></h2></center><h4>Turning user research insights into actionable items and materials, such as user experience flows.</h4></div>
-  <div class="col-sm-4"><h2><center><span class="glyphicon glyphicon-pencil" aria-hidden-"true"></span></h2></center><h4>Leading content development, working closely with agency partners for iteration and approval.</h4></div>
-</div>
-
-<div class="row">
-  <div class="col-sm-4"><h2><center><span class="glyphicon glyphicon-piggy-bank" aria-hidden-"true"></span></h2></center><h4>Managing RFP development and contracting with vendors.</h4></div>
-  <div class="col-sm-4"><h2><center><span class="glyphicon glyphicon-tasks" aria-hidden-"true"></span></h2></center><h4>Maintaining product development timelines and scope.</h4></div>
-  <div class="col-sm-4"><h2><center><span class="glyphicon glyphicon-bullhorn" aria-hidden-"true"></span></h2></center><h4>Creating product launch and ongoing marketing strategy.</h4></div>
-</div>
-
-</p>   
+           <p> <b><h4>Design</b></h4>
+            <p><h4>The Design Team follows a human-centered process to work with stakeholders to analyze needs and opportunities and turn them into actionable services. Central to the work on all products and new initiatives, the team conducts user research, creates user experience, and works closely with the internal and vendor technology teams to prototype, develop, and set ongoing strategy for digital tools.</h4></p>
+            
+            <li class="list-group-item list-group-item-info">Current Openings:</li>
+<a href="#" class="list-group-item">Product Manager</a>
+<a href="#" class="list-group-item">Data Visualization Developer</a>
+<a href="#" class="list-group-item">Apprentices</a>
+<br>
+            <p><b><h4>Digital</b></h4>
+            <p><h4>The Digital Team develops new applications and maintains citywide, enterprise products.  The team leverages existing City technology assets and systems, and also works in an agile, iterative way to build new digital services, collaborating closely with the Design and Data teams. </h4></p>
+            
+            <li class="list-group-item list-group-item-info">Current Openings:</li>
+<a href="#" class="list-group-item">Product Manager</a>
+<a href="#" class="list-group-item">Data Visualization Developer</a>
+<a href="#" class="list-group-item">Apprentices</a>
+  
         </div>
       </div>
 
@@ -127,7 +174,6 @@
 
       <footer class="footer">
         <div class="container"><h3><b>Interested in a position?&nbsp;&nbsp;</b><a href="mailto:ekadernauth@hhs.nyc.gov"><button type="button" class="btn btn-success btn-lg"><b><span class="glyphicon glyphicon-envelope" aria-hidden-"true"></span> Send us a note</b></button></a></div>
-<div class="container"> <h4> We're also hiring a<a href="http://dataviz4nyc.github.io"> data visualization analyst</a>!</h4></div>
 <br>
         <br>
       </footer>
