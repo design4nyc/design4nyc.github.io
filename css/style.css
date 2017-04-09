@@ -1,5 +1,5 @@
 .jumbotron {
-    background-color: #118df0;
+    background-color: #3356A5;
 }
 .jumbotron h1 {
     color: #fff;
@@ -9,38 +9,38 @@
 }
 .btn-primary {
     color: #fff;
-    background-color: #ff304f;
-    border-color: #ff304f;
+    background-color: #3356A5;
+    border-color: #3356A5;
     box-shadow: 0px 0px 2px #333;
 }
 .btn-primary:hover {
-    background-color: #25237a;
-    border-color: #25237a;
+    background-color: #2F334F;
+    border-color: #2F334F;
 }
 p .lead {
   color: #fff;
 }
 .panel-primary> .panel-heading {
     color: #fff;
-    background-color: #118df0;
-    border-color: #118df0;
+    background-color: #3356A5;
+    border-color: #3356A5;
 }
 .btn-success {
     color: #fff;
-    background-color: #ff304f;
-    border-color: #ff304f;
+    background-color: #3356A5;
+    border-color: #3356A5;
     box-shadow: 0px 0px 2px #333;
 }
 .btn-success:hover {
-    background-color: #25237a;
-    border-color: #25237a;
+    background-color: #2F334F;
+    border-color: #2F334F;
 }
 .panel-primary {
-    border-color: #118df0;
+    border-color: #3356A5;
     background-color: #f5f5f5;
 }
 a {
-    color: #118df0;
+    color: #3356A5;
     text-decoration: none;
 }
 
@@ -56,7 +56,7 @@ a {
 
 
 .list-group-item-info {
-  color: #ffffff;
-  background-color: #ff304f;
+  color: #2F334F;
+  background-color: #FCBC70;
 
 
