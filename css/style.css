@@ -1,62 +1,68 @@
 .jumbotron {
-    background-color: #3356A5;
+  background-color: #3356A5;
 }
 .jumbotron h1 {
-    color: #fff;
+  color: #fff;
 }
 .jumbotron p {
-    color: #fff;
+  color: #fff;
 }
 .btn-primary {
-    color: #fff;
-    background-color: #3356A5;
-    border-color: #3356A5;
-    box-shadow: 0px 0px 2px #333;
+  color: #fff;
+  background-color: #3356A5;
+  border-color: #3356A5;
+  box-shadow: 0px 0px 2px #333;
 }
 .btn-primary:hover {
-    background-color: #2F334F;
-    border-color: #2F334F;
+  background-color: #2F334F;
+  border-color: #2F334F;
 }
+
 p .lead {
   color: #fff;
 }
 .panel-primary> .panel-heading {
-    color: #fff;
-    background-color: #3356A5;
-    border-color: #3356A5;
+  color: #fff;
+  background-color: #3356A5;
+  border-color: #3356A5;
 }
 .btn-success {
-    color: #fff;
-    background-color: #3356A5;
-    border-color: #3356A5;
-    box-shadow: 0px 0px 2px #333;
+  color: #fff;
+  background-color: #3356A5;
+  border-color: #3356A5;
+  box-shadow: 0px 0px 2px #333;
 }
 .btn-success:hover {
-    background-color: #2F334F;
-    border-color: #2F334F;
+  background-color: #2F334F;
+  border-color: #2F334F;
 }
 .panel-primary {
-    border-color: #3356A5;
-    background-color: #f5f5f5;
+  border-color: #3356A5;
+  background-color: #f5f5f5;
 }
 a {
-    color: #3356A5;
-    text-decoration: none;
+  color: #3356A5;
+  text-decoration: none;
 }
 
-/* navbar */
+/****** navbar ******/
 .navbar-default {
-    background-color: #ffffff;
-    border-color: #ffffff;
-}
-    .navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-    color: #25237a;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #25237a;
+}
+
+.navbar-brand img{
+   height:20px;
+}
+/****** end navbar ******/
 
 .list-group-item-info {
   color: #2F334F;
   background-color: #FCBC70;
-
+}
 
