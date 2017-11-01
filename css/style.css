@@ -1,50 +1,3 @@
-.jumbotron {
-  background-color: #3356A5;
-}
-.jumbotron h1 {
-  color: #fff;
-}
-.jumbotron p {
-  color: #fff;
-}
-.btn-primary {
-  color: #fff;
-  background-color: #3356A5;
-  border-color: #3356A5;
-  box-shadow: 0px 0px 2px #333;
-}
-.btn-primary:hover {
-  background-color: #2F334F;
-  border-color: #2F334F;
-}
-
-p .lead {
-  color: #fff;
-}
-.panel-primary> .panel-heading {
-  color: #fff;
-  background-color: #3356A5;
-  border-color: #3356A5;
-}
-.btn-success {
-  color: #fff;
-  background-color: #3356A5;
-  border-color: #3356A5;
-  box-shadow: 0px 0px 2px #333;
-}
-.btn-success:hover {
-  background-color: #2F334F;
-  border-color: #2F334F;
-}
-.panel-primary {
-  border-color: #3356A5;
-  background-color: #f5f5f5;
-}
-a {
-  color: #3356A5;
-  text-decoration: none;
-}
-
 /****** navbar ******/
 .navbar-default {
   background-color: #ffffff;
@@ -60,6 +13,69 @@ a {
    height:20px;
 }
 /****** end navbar ******/
+
+/****** jumbotron ******/
+.jumbotron {
+  background-color: #3356A5;
+}
+
+.jumbotron h1 {
+  color: #fff;
+}
+
+.jumbotron p {
+  color: #fff;
+}
+/****** jumbotron ******/
+.btn-primary {
+  color: #fff;
+  background-color: #3356A5;
+  border-color: #3356A5;
+  box-shadow: 0px 0px 2px #333;
+}
+.btn-primary:hover {
+  background-color: #2F334F;
+  border-color: #2F334F;
+}
+
+p .lead {
+  color: #fff;
+}
+/****** panel ******/
+.panel-primary> .panel-heading {
+  color: #fff;
+  background-color: #3356A5;
+  border-color: #3356A5;
+}
+
+.panel-primary {
+  border-color: #3356A5;
+  background-color: #f5f5f5;
+}
+
+.panel-body h5 {
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+.panel-body img {
+  padding: 5px 0px;
+}
+/****** end panel ******/
+.btn-success {
+  color: #fff;
+  background-color: #3356A5;
+  border-color: #3356A5;
+  box-shadow: 0px 0px 2px #333;
+}
+.btn-success:hover {
+  background-color: #2F334F;
+  border-color: #2F334F;
+}
+a {
+  color: #3356A5;
+  text-decoration: none;
+}
 
 .list-group-item-info {
   color: #2F334F;
