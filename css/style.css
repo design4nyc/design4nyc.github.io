@@ -35,6 +35,11 @@
     color: #fff;}
   .jumbotron p {
     color: #fff;}
+  .jumbotron a{
+    color:#fff;
+    text-decoration: underline;}
+    .jumbotron a:hover {
+      color:#F9A137;}
 /****** jumbotron ******/
 
 /****** panel ******/
