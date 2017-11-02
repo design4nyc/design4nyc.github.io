@@ -18,13 +18,17 @@
 
 .social{
   float: left;
-  text-align: left;
-}
+  text-align: left;}
+  .social span {
+    margin-left: 10px;
+  }
 
 @media screen and (min-width: 768px) {
   .social{
-    float: right !important;
-  }
+    float: right !important;}
+    .social span{
+      display: none;
+    }
 }
 /****** end navbar ******/
 
