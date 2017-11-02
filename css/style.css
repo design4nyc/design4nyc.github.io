@@ -1,62 +1,130 @@
+/****** navbar ******/
+.navbar {
+  margin-bottom: 0px;
+}
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #25237a;
+}
+
+.navbar-brand img{
+  height:20px;
+}
+/****** end navbar ******/
+
+/****** jumbotron ******/
 .jumbotron {
-    background-color: #3356A5;
+  background-color: #3356A5;
 }
+
 .jumbotron h1 {
-    color: #fff;
+  color: #fff;
 }
+
 .jumbotron p {
-    color: #fff;
+  color: #fff;
 }
+/****** jumbotron ******/
+
+/****** panel ******/
+.panel-primary > .panel-heading {
+  color: #fff;
+  background-color: #3356A5;
+  border-color: #3356A5;
+}
+
+.panel-primary {
+  border-color: #3356A5;
+  background-color: #f5f5f5;
+}
+
+.panel-heading h3 {
+  font-size: 24px;
+}
+
+.panel-title {
+  font-weight: 700;
+  padding: 10px 0px;
+}
+
+.panel-body img {
+  padding: 5px 0px;
+  font-size: 18px;
+}
+
+.panel-body h4, p {
+  font-size: 18px;
+}
+
+.panel-bullets {
+  font-size: 18px;
+}
+/****** end panel ******/
+
+/****** buttons ******/
 .btn-primary {
-    color: #fff;
-    background-color: #3356A5;
-    border-color: #3356A5;
-    box-shadow: 0px 0px 2px #333;
+  color: #fff;
+  background-color: #3356A5;
+  border-color: #3356A5;
+  box-shadow: 0px 0px 2px #333;
 }
+
 .btn-primary:hover {
-    background-color: #2F334F;
-    border-color: #2F334F;
+  background-color: #2F334F;
+  border-color: #2F334F;
 }
+
+@media screen and (min-width: 768px) {
+  .btn-primary{
+    float: right;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .btn-primary{
+    font-size: 16px;
+  }
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #3356A5;
+  border-color: #3356A5;
+  box-shadow: 0px 0px 2px #333;
+}
+.btn-success:hover {
+  background-color: #2F334F;
+  border-color: #2F334F;
+}
+/****** end buttons ******/
+
+/****** Footer ******/
+.footer {
+  border-top: 1px solid #f5f5f5;
+  padding: 20px 0px;
+}
+.footer h3, a, span{
+  display: inline;
+  font-weight: 700;
+}
+/****** end Footer ******/
+
 p .lead {
   color: #fff;
 }
-.panel-primary> .panel-heading {
-    color: #fff;
-    background-color: #3356A5;
-    border-color: #3356A5;
-}
-.btn-success {
-    color: #fff;
-    background-color: #3356A5;
-    border-color: #3356A5;
-    box-shadow: 0px 0px 2px #333;
-}
-.btn-success:hover {
-    background-color: #2F334F;
-    border-color: #2F334F;
-}
-.panel-primary {
-    border-color: #3356A5;
-    background-color: #f5f5f5;
-}
+
 a {
-    color: #3356A5;
-    text-decoration: none;
+  color: #3356A5;
+  text-decoration: none;
 }
-
-/* navbar */
-.navbar-default {
-    background-color: #ffffff;
-    border-color: #ffffff;
-}
-    .navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-    color: #25237a;
-}
-
 
 .list-group-item-info {
   color: #2F334F;
   background-color: #FCBC70;
-
+}
 
