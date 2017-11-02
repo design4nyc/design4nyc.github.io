@@ -1,173 +1,175 @@
-﻿
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
-  <head>
-   <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="img/favicon.ico">
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="img/favicon.ico">
 
-    <title>NYC Opportunity</title>
+  <title>NYC Opportunity</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/jumbotron-narrow.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
 
-    <!--JS-->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src ="js/bootstrap.min.js"></script>
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <!--<script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src ="js/bootstrap.min.js"></script>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="container">
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
 
+          <!-- logo -->
+          <a class="navbar-brand" href="index.html"><img src="img/nycopp.png"></a>
+        </div>
+        
+        <!-- Collapsed navbar -->
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">About</a></li>
+            <li><a href="mailto:ekadernauth@hhs.nyc.gov">Contact</a></li>
+            <li class="dropdown">
+              <a href="http://getbootstrap.com/examples/navbar/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Open Positions <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">Data</li>
+                <li><a href="dataarchitect.html">Data Architect</a></li>
+                <li><a href="businessintelligenceanalyst.html">Business Intelligence Analyst</a></li>
+                <li><a href="testinglead.html">Testing Lead</a></li>
+                <li role="separator" class="divider"></li>
+        
+                <li class="dropdown-header">Design & Product</li>
+                <li><a href="designapprentice.html">Design Apprentice</a></li>
+                <li><a href="apprentice.html">Apprentice</a></li>
+                <li><a href="contentanalyst.html">Content Analyst</a></li>
+                <li role="separator" class="divider"></li>
 
-
-  <body>
-
-
-    <div class="container">
-<br>
-      <!-- Static navbar -->
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-  
-            
-              <a href="index.html" class="pull-left"><img src="img/nycopp.png" height="35px"style="PADDING-TOP: 15px"></a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              
-              <li><a href="index.html">About</a></li>
-              <li><a href="mailto:ekadernauth@hhs.nyc.gov">Contact</a></li>
-              <li class="dropdown">
-                <a href="http://getbootstrap.com/examples/navbar/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Open Positions <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  li class="dropdown-header">Data</li>
-                  <li><a href="dataarchitect.html">Data Architect</a></li>
-                  <li><a href="businessintelligenceanalyst.html">Business Intelligence Analyst</a></li>
-
-          <br> 
-                  <li class="dropdown-header">Design & Product</li>
-    <li><a href="designapprentice.html">Design Apprentice</a></li>
-                  <li><a href="apprentice.html">Apprentice</a></li>
-    
-                  <br>
-                  <li class="dropdown-header">Technology</li>
-                  <li><a href="director_techdev.html">Director of Technology Development</a></li>
-        <li><a href="backenddev.html">Back End Developer</a></li>
-              
-                </ul>
-              </li>
-            </ul>
-            
-          </div>
-
-      <div class="well">
-        <h1><b><font color="#2F334F">Data Architect</font></b></h1>
-        <p class="lead">The Data Architect will manage the data modeling and database architecture for a number of strategic citywide initiatives led by the Mayor’s Office of Operations. They will work closely with City agencies, contracted service providers and vendors to perform data profiling, source system analysis and data modeling. Additionally, they will participate in the development of innovative strategies to enable better data integration across multiple domains within the City.</p>
-        <br>
-        <p align="right"><a href="index.html"><button type="button" class="btn btn-primary btn-lg"><b>Learn More About Our Work</b></button></a></p>
+                <li class="dropdown-header">Technology</li>
+                <li><a href="backenddev.html">Back End Developer</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav social"> 
+            <li><a href="http://www1.nyc.gov/site/opportunity/index.page" target="_blank"><i class="fa fa-university" aria-hidden="true"></i><span> NYC Opportunity</span></a></li>
+            <li><a href="https://www.facebook.com/NYCOpportunity/" target="_blank"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i><span> Facebook</span></a></li>
+            <li><a href="https://twitter.com/nycopportunity?lang=en" target="_blank"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i><span> Twitter</span></a></li>
+            <li><a href="https://www.instagram.com/nycopportunity/" target="_blank"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i><span> Instagram</span></a></li>
+          </ul>
+        </div><!-- end of Collapsed navbar -->
       </div>
-      
+    </nav> <!-- end of Static navbar -->
+
+    <!-- Job Description -->
+    <div class="well">
+      <h1><b><font color="#2F334F">Data Architect</font></b></h1>
+      <p class="lead">The Data Architect will manage the data modeling and database architecture for a number of strategic citywide initiatives led by the Mayor’s Office of Operations. They will work closely with City agencies, contracted service providers and vendors to perform data profiling, source system analysis and data modeling. Additionally, they will participate in the development of innovative strategies to enable better data integration across multiple domains within the City.</p>
+      <br>
+      <div class="row">
+        <div class="col-sm-12">
+          <a href="index.html">
+            <button type="button" class="btn btn-primary center-block btn-lg"><b>Learn More About Our Work</b></button>
+          </a>
+        </div>
+      </div>
+    </div> <!-- end of Job Description -->
+    
    
-
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <div class="panel panel-primary">
-            <div class="panel-heading"><h3><span class="glyphicon glyphicon-flag" aria-hidden-"true"></span>&nbsp;&nbsp;<b>Responsibilities</b></h3></div>
-          <div class="panel-body"><p><h4>
-<ul>
-<li>Work with internal and external stakeholders to understand their data and reporting needs, present them with various options and guide them to analytic solutions that best meets their needs.
-<li>Develop, update and maintain the conceptual, logical and physical data models capable of supporting existing and future reporting needs.
-<li>Perform data profiling of legacy and strategic data source systems to assess data quality and identify issues, inconsistencies and missing data.
-<li>Define and build technical and data architectures within the City’s integrated data platform (including data and dimensional modeling).
-<li>Develop protocols and governance that promote data standards and data quality across multiple city agencies.
-<li>Create and maintain excellent documentation including data dictionaries, source-to-target maps, and database policies and guidelines.
-<li>Collaborate with the application developers, ETL team and database administrators to ensure database performance, integrity and security.
-<li>Support the development of reports either via SQL queries and/or an enterprise reporting tool such as OBIEE.
-           </p>
-      
-            <br>
-      <!--<p><div clas="text-center"><img class="img-responsive"src="img/access.png" alt="ACCESS NYC Home Page" style="border: 1px solid black"></div></img></p>-->
-     <div class ="container>"   
-<div class="row">
-  <div class="col-md-4">
-    
-    </a>
-  </div>
-</div>
- 
-
-<p>
-</p></div></div></div>
-
-<div class="col-lg-6">
-<div class="panel panel-primary">
-            <div class="panel-heading">
-          <h3><span class="glyphicon glyphicon-ok-sign" aria-hidden-"true"></span>&nbsp;&nbsp;<b>Skills We're Seeking</b></h3></div>
-          <h4><div class="panel-body">
-                    
-
-<div class="row">
-  <div class="col-sm-4"><h2><center><span class="glyphicon glyphicon-globe" aria-hidden-"true"></span></h2></center><h4>Commitment to the mission of advancing greater equality and opportunity.</h4></div>
-
-  <div class="col-sm-4"><h2><center><span class="glyphicon glyphicon-random" aria-hidden-"true"></span></h2></center><h4>Experience in modeling techniques and solutions in dimensional data models.</h4></div>
-
- <div class="col-sm-4"><h2><center><span class="glyphicon glyphicon-ok" aria-hidden-"true"></span></h2></center><h4>Analytical assistance and supervision, including quantitative and qualitative data analysis, the evaluation of best practices, and the identification and assessment of operational improvement opportunities at different agencies.</h4></div>
-
-  
-  
-  
-</div>
-</br>
-  
+    <!-- Panels -->
+    <div class="row marketing">
+      <!-- Responsibilities -->
+      <div class="col-lg-6">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title"><span class="glyphicon glyphicon-flag" aria-hidden-"true"></span>&nbsp;&nbsp;Responsibilities</h3>
+          </div>
+          <div class="panel-body">
+            <ul class="panel-bullets">
+              <li>Work with internal and external stakeholders to understand their data and reporting needs, present them with various options and guide them to analytic solutions that best meets their needs.</li>
+              <li>Develop, update and maintain the conceptual, logical and physical data models capable of supporting existing and future reporting needs.</li>
+              <li>Perform data profiling of legacy and strategic data source systems to assess data quality and identify issues, inconsistencies and missing data.</li>
+              <li>Define and build technical and data architectures within the City’s integrated data platform (including data and dimensional modeling).</li>
+              <li>Develop protocols and governance that promote data standards and data quality across multiple city agencies.</li>
+              <li>Create and maintain excellent documentation including data dictionaries, source-to-target maps, and database policies and guidelines.</li>
+              <li>Collaborate with the application developers, ETL team and database administrators to ensure database performance, integrity and security.</li>
+              <li>Support the development of reports either via SQL queries and/or an enterprise reporting tool such as OBIEE.</li>
+            </ul>      
+          </div>
         </div>
-      </div>
+      </div><!-- end of Responsibilities -->
 
-<div class="panel panel-primary">
- <div class="panel-heading">
-          <h3><span class="glyphicon glyphicon-education" aria-hidden-"true"></span>&nbsp;&nbsp;<b>Education and Experience</b></h3></div>
-          <h4><div class="panel-body">
-  <p>Master's degree in information systems, technology or equivalent preferred with 3-5 years of experience in data integration and analytics.
-</div>
-        </div>
-      </div>
+      <!-- Skills and Experience-->
+      <div class="col-lg-6">
+        <!-- Skills -->
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title"><span class="glyphicon glyphicon-ok-sign" aria-hidden-"true"></span>&nbsp;&nbsp;Skills We're Seeking</h3>
+          </div>
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-sm-4">
+                <h2><span class="glyphicon glyphicon-globe" aria-hidden-"true"></span></h2>
+                <h4>Commitment to the mission of advancing greater equality and opportunity.</h4>
+              </div>
 
+              <div class="col-sm-4">
+                <h2><span class="glyphicon glyphicon-random" aria-hidden-"true"></span></h2>
+                <h4>Experience in modeling techniques and solutions in dimensional data models.</h4>
+              </div>
 
-      <footer class="footer">
-        <div class="container"><h3><b>Interested in this position?&nbsp;&nbsp;</b><a href="mailto:ekadernauth@nycopportunity.nyc.gov?subject=Data Architect"><button type="button" class="btn btn-success btn-lg"><b><span class="glyphicon glyphicon-envelope" aria-hidden-"true"></span> Send us a note</b></button></a></div>
-<br>
-        <br>
-      </footer>
+              <div class="col-sm-4">
+                <h2><span class="glyphicon glyphicon-ok" aria-hidden-"true"></span></h2>
+                <h4>Analytical assistance and supervision, including quantitative and qualitative data analysis, the evaluation of best practices, and the identification and assessment of operational improvement opportunities at different agencies.</h4>
+              </div>
+            </div>  
+          </div>
+        </div><!-- end of Skills -->
 
-    </div> <!-- /container -->
+        <!-- Experience -->
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title"><span class="glyphicon glyphicon-education" aria-hidden-"true"></span>&nbsp;&nbsp;Education and Experience</h3>
+          </div>
+            <div class="panel-body">
+            <p>Master's degree in information systems, technology or equivalent preferred with 3-5 years of experience in data integration and analytics.</p>
+          </div>
+        </div><!-- end of Experience -->
+      </div><!-- Skills and Education-->
+    </div> <!-- end of Panels -->
 
+    <!-- Footer -->
+    <footer class="footer">
+        <h3>Interested in a position?&nbsp;&nbsp;</h3>
+        <a href="mailto:ekadernauth@nycopportunity.nyc.gov">
+          <button type="button" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-envelope" aria-hidden-"true"></span> Send us a note</button>
+        </a>
+    </footer> <!-- end of Footer -->
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+  </div> <!-- /container -->
+
+</body>
 </html>
