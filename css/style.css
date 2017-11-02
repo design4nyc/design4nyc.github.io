@@ -61,10 +61,18 @@
   font-size: 18px;
 }
 
+.panel-body h2 {
+  text-align: center;
+}
+
 .panel-bullets {
   font-size: 18px;
 }
 /****** end panel ******/
+
+.skills .glyphicon{
+  text-align: center;
+}
 
 /****** buttons ******/
 .btn-primary {
