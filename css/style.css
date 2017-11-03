@@ -44,6 +44,12 @@
     text-decoration: underline;}
     .jumbotron a:hover {
       color:#F9A137;}
+
+.openings a{
+  text-decoration: none;
+  color: #F9A137;}
+  .openings a:hover {
+    color: #fff;}
 /****** jumbotron ******/
 
 /****** panel ******/
