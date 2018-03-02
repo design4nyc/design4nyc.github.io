@@ -74,6 +74,7 @@
 }
 
 .panel-body img {
+  margin: 0 auto;
   padding: 5px 0px;
   font-size: 18px;}
 
