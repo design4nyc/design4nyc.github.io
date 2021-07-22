@@ -1,10 +1,7 @@
-# Build With NYC
-
-To see the NYC Opportunity recruiting site, visit: http://buildwithnyc.github.io
+See the NYC Innovation and Design Team recruiting site at: http://design4nyc.github.io
 
 This site is built using Twitter Boostrap (http://getbootstrap.com/2.3.2/) and hosted on Github pages (https://pages.github.com/). It is entirely open source and free for you to use and improve upon. 
 
-## Getting Started
 To start your own recruiting site using this repository: 
 
 **1. Sign up / log in to Github.**
@@ -16,7 +13,7 @@ If you're new to Github, read the"fork a repo" how to: https://help.github.com/a
 
 **4. Rename the fork to *organizationname*.github.io**
 
-**5. Edit the content of the site to suit your city.** Be creative in how you share the culture, vision, and impact of the work you're doing everyday. 
+**5. Edit the content of the site to suite your city.** Be creative in how you share the culture, vision, and impact of the work you're doing everyday. 
 
 **6. Go to *organizationname*.github.io and see your site!**
 
